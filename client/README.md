@@ -1,1 +1,1 @@
-paleta verde #03C022
+projeto em typescript 
