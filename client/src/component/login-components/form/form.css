@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.container-form {
+    background-color: black;
+    
+    height: auto;
+    width: 20rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px -5px 5px #03c0237f;
+    transition: box-shadow 1s ease-in-out;
+    animation: bounce 1s;
+}
+
+@keyframes bounce {
+    0% {
+        margin-bottom: 100px; /* Forneça uma unidade de medida, por exemplo, pixels */
+    }
+   
+    100% {
+        margin-bottom: 0px; /* Forneça uma unidade de medida, por exemplo, pixels */
+    }
+}
+
+.container-form:hover{
+    box-shadow: -10px 5px 5px #03c0237f;
+}
+
+.title-form {
+    font-family: 'Audiowide', cursive;
+    color: #03C022;
+}
+
+form{
+    display: flex;
+}
+
+.box_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.box_input p {
+    color: white;
+    font-weight: bold;
+}
+
+.input-login{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #03C022;
+    padding: 5px;
+    font-size: 1em;
+    color: whitesmoke;
+    outline: none;
+}
+
+.box_input button {
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #03C022;
+    border: 2px solid black;
+    color: white;
+
+    border-radius: 3px;
+    font-size: 1em;
+    font-family: 'Audiowide', cursive;
+    transition: 2s;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.box_input button:hover {
+    background-color: transparent;
+    border: 2px solid #03C022;
+    color: #03C022;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.error-login{
+    color: red;
+}
